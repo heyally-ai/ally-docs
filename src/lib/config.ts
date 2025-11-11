@@ -11,16 +11,16 @@ import type { Feature, PromoConfig, SiteConfig } from "./types/config";
 
 
 export const siteConfig: SiteConfig = {
-    version: '0.0.1',
-    title: 'Documentation',
+    version: '1.0.0',
+    title: 'Ally Documentation',
     description:
-        'Comprehensive documentation for your project. Built with Svelte 5, MDSvex, Tailwind CSS, and shadcn/ui components.',
-    github: 'https://github.com/code-gio/svelte-firekit-docs',
+        'Learn how to use Ally, your AI-enhanced personal knowledge companion. Privacy-first knowledge management with local AI.',
+    github: '',
     npm: '',
 
     quickLinks: [
-        { title: 'Customize', href: '/docs/customize' },
-        { title: 'Examples', href: '/docs/examples' }
+        { title: 'Getting Started', href: '/docs/getting-started' },
+        { title: 'Features', href: '/docs/features' }
     ],
     logo: '/logo.svg',
     logoDark: '/logo-white.svg',
@@ -37,50 +37,43 @@ export let navItems: NavItem[] = [
 ];
 
 export let socialLinks: SocialLink[] = [
-
     {
-        title: 'LinkedIn',
-        href: 'https://www.linkedin.com/in/giovanirodriguez26/',
-        icon: 'linkedin'
-    },
-    {
-        title: 'GitHub',
-        href: 'https://github.com/code-gio',
-        icon: 'github'
-    },
-
+        title: 'Website',
+        href: 'https://heyally.ai',
+        icon: 'globe'
+    }
 ];
 
 
 export const features: Feature[] = [
     {
         icon: Boxes,
-        title: 'Component Library',
-        description: 'Built on top of shadcn/ui, offering comprehensive accessible components with complete documentation'
+        title: 'Privacy-First',
+        description: 'All AI processing happens locally on your device. Your data never leaves your Mac or iPhone.'
     },
     {
         icon: Workflow,
-        title: 'Type Safe',
-        description: 'Fully typed with TypeScript, providing excellent IDE support and reliable development experience'
+        title: 'Multi-Modal Capture',
+        description: 'Voice, text, screen, and files—capture knowledge however it comes to you.'
     },
     {
         icon: Paintbrush,
-        title: 'Fully Customizable',
-        description: 'Easily customize themes, layouts, and components to match your brand identity and requirements'
+        title: 'Intelligent Organization',
+        description: 'AI automatically extracts insights, builds connections, and helps you find what you need.'
     },
     {
         icon: Zap,
-        title: 'Fast & Modern',
-        description: 'Powered by Svelte 5, MDSvex, and TailwindCSS for optimal performance and developer experience'
+        title: 'Local AI Power',
+        description: 'Powered by on-device models for transcription, summarization, and knowledge extraction.'
     }
 ];
 
 export let promoConfig: PromoConfig = {
-    title: 'Need help with your project?',
+    title: 'Need help?',
     description:
-        'I offer custom development services, consulting, and technical guidance for your web applications.',
-    ctaText: "Let's work together",
-    ctaLink: 'mailto:info@codegio.com',
+        'Have questions or feedback? We\'re here to help you get the most out of Ally.',
+    ctaText: 'Contact Support',
+    ctaLink: 'mailto:support@heyally.ai',
     lightImage: '/images/dev-services-light.jpg',
     darkImage: '/images/dev-services-dark.jpg'
 };

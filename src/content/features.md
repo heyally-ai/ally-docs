@@ -1,127 +1,62 @@
 ---
 title: Features
-description: Explore the powerful features that make this documentation template stand out
+description: What Ally can do
 ---
 
 # Features
 
-Our documentation template comes with powerful built-in features designed to enhance both the developer and user experience.
+Explore everything Ally has to offer.
 
-## Automatic Documentation Navigation
+## Voice Recording & Transcription
 
-The template automatically generates a navigation structure from your markdown files using an intelligent singleton pattern.
+Record your thoughts and get instant transcriptions.
 
-### How It Works
-- Automatically scans your `/src/content` directory for markdown files
-- Creates a nested navigation structure based on your folder hierarchy
-- Supports customization through frontmatter metadata
-- Handles special cases like index files and single-file folders
-- Maintains a clean, organized sidebar structure
+- **One-tap recording** - Start capturing with a keyboard shortcut
+- **Live transcription** - See text appear as you speak
+- **Speaker diarization** - Automatically identify different speakers
+- **Multi-language support** - Transcribe in multiple languages
 
-```typescript
-// Example markdown frontmatter
----
-title: Getting Started
-description: Quick start guide
-disabled: false
-external: false
-label: New
----
-```
+[Learn more about voice recording →](/docs/features/voice-recording)
 
-## Dynamic Table of Contents
+## Knowledge Graph
 
-Every documentation page automatically generates a table of contents from your markdown headings.
+Build connections between your ideas automatically.
 
-### Features
-- Automatically extracts h1-h6 headings
-- Generates unique IDs for each heading
-- Updates in real-time as content changes
-- Supports smooth scrolling to sections
-- Provides both desktop and mobile views
-- Maintains active section highlighting
+- **Entity extraction** - AI identifies people, places, concepts
+- **Automatic linking** - Related notes connect themselves
+- **Visual graph view** - See how your knowledge connects
+- **Smart search** - Find information semantically
 
-The table of contents is implemented using a reactive system that:
-- Watches for DOM changes
-- Updates navigation states automatically
-- Provides smooth scrolling behavior
-- Supports dynamic content updates
+[Learn more about the knowledge graph →](/docs/features/knowledge-graph)
 
-## Document Search
+## Library & Organization
 
-Built-in search functionality powered by FlexSearch provides fast and accurate content discovery.
+Organize your captured knowledge effortlessly.
 
-### Search Features
-- Full-text search across all documentation
-- Real-time search results
-- Search through titles and content
-- Fuzzy matching support
-- Type-ahead suggestions
-- Relevant result highlighting
-- Mobile-friendly search interface
+- **Smart folders** - Auto-organize by type, date, or topic
+- **Tags & metadata** - Add context to your notes
+- **Search** - Find anything instantly
+- **Export** - Take your data anywhere
 
-```typescript
-// Example search usage
-const results = await docsSearch.search("authentication");
-```
+[Learn more about the library →](/docs/features/library)
 
-## Dark Mode Support
+## AI Features
 
-The template includes a fully functional dark mode with system preference detection.
+Local AI that respects your privacy.
 
-### Dark Mode Features
-- System preference detection
-- Manual toggle option
-- Persistent preference storage
-- Smooth theme transitions
-- Consistent styling across components
-- Dark mode optimized syntax highlighting
+- **Summarization** - Get the key points of any note
+- **Todo extraction** - AI finds action items automatically
+- **Smart suggestions** - Contextual recommendations
+- **Semantic search** - Find by meaning, not just keywords
 
-## Responsive Design
+[Learn more about AI features →](/docs/features/ai)
 
-The documentation template is fully responsive and optimized for all device sizes.
+## Sync & Backup
 
-### Responsive Features
-- Mobile-first approach
-- Adaptive navigation
-- Responsive tables and code blocks
-- Touch-friendly interactions
-- Optimized reading experience
-- Collapsible sidebar on mobile
+Your data, everywhere you need it.
 
-## Promotional Components
+- **iCloud sync** - Seamless sync between devices
+- **Local backups** - Never lose your knowledge
+- **Export options** - Markdown, JSON, and more
 
-Built-in promotional components help you highlight important information or calls-to-action.
-
-### Promo Features
-- Customizable promo cards
-- Strategic placement options
-- Responsive design
-- Dark mode support
-- Call-to-action buttons
-- Custom imagery support
-
-## Full Customization
-
-The template is designed to be fully customizable to match your brand and requirements.
-
-### Customization Options
-- Theme customization
-- Typography settings
-- Layout modifications
-- Component styling
-- Navigation structure
-- Search behavior
-- Promotional content
-- Syntax highlighting
-
-## Quick Reference
-
-```typescript
-// Initialize documentation features
-await docsNavigation.generateNavigation();
-await docsSearch.initializeSearchIndex();
-const toc = TableOfContents.getInstance(contentRef);
-```
-
-All features are implemented using singleton patterns for efficient state management and consistent behavior across your documentation site.
+[Learn more about sync →](/docs/features/sync)

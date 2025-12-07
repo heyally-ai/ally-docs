@@ -1,11 +1,13 @@
 <script lang="ts">
+  import type { Snippet } from 'svelte';
   import { Info, AlertTriangle, Lightbulb, CheckCircle } from 'lucide-svelte';
 
   interface Props {
     type?: 'info' | 'warning' | 'tip' | 'success';
+    children?: Snippet;
   }
 
-  let { type = 'info' }: Props = $props();
+  let { type = 'info', children }: Props = $props();
 
   const icons = {
     info: Info,

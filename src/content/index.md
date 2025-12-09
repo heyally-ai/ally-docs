@@ -21,7 +21,7 @@ Ally helps you:
   - Web clipper: Save web page content with Safari extension (Chrome coming soon!)
   - Centralized inbox: Organizing is simple and easy. Just drag and drop each item where it belongs 
   
-###Fast, elegant markdown editing:
+### Fast, elegant markdown editing:
   - Snappy markdown editor for managing your data, creating documents, and more
   - Full screen mode for focus
   - Markdown is an open format that AI understands so it's the perfect format for collaboration

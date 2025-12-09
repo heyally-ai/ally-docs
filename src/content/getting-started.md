@@ -7,14 +7,8 @@ description: Install and set up Ally for producitivity
   import Callout from '$lib/components/Callout.svelte';
 </script>
 
-# Getting started with Ally
-
-Get Ally installed in minutes.
-
 <Callout type="info">
 Ally requires macOS 14.6+ or iOS 17+ to run. Check your system version before installing.
-
-Using the macOS and iOS apps together is recommended, but they can be used separately.
 </Callout>
 
 ## Installation
@@ -46,7 +40,7 @@ If you skip granting permissions during setup, you'll need to enable them manual
 ## Next Steps
 
 <Callout type="tip">
-Pro tip: Set up keyboard shortcuts first! Quick capture is the fastest way to use Ally.
+Pro tip: Using the macOS and iOS apps together is recommended, but they can be used separately.
 </Callout>
 
 - [Configure the macOS app](/docs/getting-started/configure-macos)

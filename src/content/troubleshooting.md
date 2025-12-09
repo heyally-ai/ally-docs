@@ -3,10 +3,6 @@ title: Troubleshooting
 description: Common issues and solutions
 ---
 
-# Troubleshooting
-
-Solutions to common problems.
-
 ## Audio Issues
 
 ### Microphone Not Working

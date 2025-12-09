@@ -1,33 +1,30 @@
 ---
 title: Features
-description: What Ally can do
+description: Discover what Ally can do for you
 ---
 
-# Features
+## Voice notes, meeting transcription, lecture recording, etc.
 
-Explore everything Ally has to offer.
+Record any speech audio and get instant, searchable transcriptions.
 
-## Voice Recording & Transcription
-
-Record your thoughts and get instant transcriptions.
-
+- **Fast, simple, and easy** - No command line, no downloads, no accounts. 
 - **One-tap recording** - Start capturing with a keyboard shortcut
 - **Live transcription** - See text appear as you speak
 - **Speaker diarization** - Automatically identify different speakers
 - **Multi-language support** - Transcribe in multiple languages
 
-[Learn more about voice recording →](/docs/features/voice-recording)
+[Learn more about voice recording →]
 
-## Knowledge Graph
+## Knowledge graph memory
 
-Build connections between your ideas automatically.
+Build searchable connections between your ideas, docs, and data automatically.
 
 - **Entity extraction** - AI identifies people, places, concepts
 - **Automatic linking** - Related notes connect themselves
 - **Visual graph view** - See how your knowledge connects
 - **Smart search** - Find information semantically
 
-[Learn more about the knowledge graph →](/docs/features/knowledge-graph)
+[Learn more about the knowledge graph →]
 
 ## Library & Organization
 
@@ -38,7 +35,7 @@ Organize your captured knowledge effortlessly.
 - **Search** - Find anything instantly
 - **Export** - Take your data anywhere
 
-[Learn more about the library →](/docs/features/library)
+[Learn more about the library →]
 
 ## AI Features
 
@@ -49,7 +46,7 @@ Local AI that respects your privacy.
 - **Smart suggestions** - Contextual recommendations
 - **Semantic search** - Find by meaning, not just keywords
 
-[Learn more about AI features →](/docs/features/ai)
+[Learn more about AI features →]
 
 ## Sync & Backup
 
@@ -59,4 +56,4 @@ Your data, everywhere you need it.
 - **Local backups** - Never lose your knowledge
 - **Export options** - Markdown, JSON, and more
 
-[Learn more about sync →](/docs/features/sync)
+[Learn more about sync →]

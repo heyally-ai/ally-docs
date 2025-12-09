@@ -1,6 +1,6 @@
 ---
 title: Ally AI
-description: Productivity for the AI Age
+description: A productivity tool for thriving in the AI Age
 ---
 
 # What is Ally?
@@ -10,6 +10,8 @@ Ally helps you:
 - Capture the information that's important in your life
 - Organize it in a way that works for you
 - Utilize that information when you need it
+- Manage your life more competently with less effort
+- Improve the quality of your work 
 
 ## Ally's core features:
 

@@ -73,7 +73,7 @@ export let promoConfig: PromoConfig = {
     description:
         'Have questions or feedback? We\'re here to help you get the most out of Ally.',
     ctaText: 'Contact Support',
-    ctaLink: 'mailto:support@heyally.ai',
+    ctaLink: 'https://heyally.ai/contact',
     lightImage: '/images/dev-services-light.jpg',
     darkImage: '/images/dev-services-dark.jpg'
 };

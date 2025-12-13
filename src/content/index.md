@@ -48,7 +48,7 @@ Ally helps you:
 ## Quick Start
 
 - [Install Ally](/docs/getting-started) - Download and set up on macOS and iOS
-- [Your First Recording](/docs/getting-started/first-recording) - Start capturing knowledge
+- [Your First Recording] - Start capturing knowledge
 - [Explore Features](/docs/features) - Discover what Ally can do and how it can help you
 - [Understand the life management philosophy] - Understand Ally's flexible approach to managing your personal and professional life.
 

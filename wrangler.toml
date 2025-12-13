@@ -1,4 +1,4 @@
-name = "ally-docs"
+name = "ally-docs-router"
 main = ".svelte-kit/cloudflare/_worker.js"
 compatibility_flags = [ "nodejs_compat" ]
 compatibility_date = "2024-09-23"

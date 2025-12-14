@@ -1,7 +1,6 @@
 <script lang="ts">
 	import * as Sidebar from '$lib/components/ui/sidebar/index.js';
 	import { siteConfig } from '$lib/config';
-	import GalleryVerticalEnd from 'lucide-svelte/icons/gallery-vertical-end';
 	import type { ComponentProps } from 'svelte';
 	let { ref = $bindable(null), ...restProps }: ComponentProps<typeof Sidebar.Root> = $props();
 	import { docsNavigation } from '$lib/components/doc-navigation.svelte';
@@ -18,9 +17,10 @@
 					{#snippet child({ props })}
 						<a href="/docs" {...props}>
 							<div
-								class="flex aspect-square size-8 items-center justify-center rounded-lg bg-sidebar-primary text-sidebar-primary-foreground"
+								class="flex aspect-square size-8 items-center justify-center rounded-lg overflow-hidden"
 							>
-								<GalleryVerticalEnd class="size-4" />
+								<img src={siteConfig.logo} alt={siteConfig.title} class="size-8 dark:hidden" />
+								<img src={siteConfig.logoDark} alt={siteConfig.title} class="size-8 hidden dark:block" />
 							</div>
 							<div class="flex flex-col gap-0.5 leading-none">
 								<span class="font-semibold"> {siteConfig.title} </span>

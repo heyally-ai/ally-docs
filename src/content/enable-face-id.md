@@ -1,9 +1,9 @@
 ---
-title: Protecting your Ally valut with Apple Face ID
-description: Keep Ally data private with Apple Face ID
+title: Turn on Apple Face ID
+description: Keep your Ally data private with Apple Face ID
 ---
 
-You may want to keep your Ally data private.  Enabling Face ID is a quick and easy way to protect your Ally vault so that only you can access it. 
+You may want to keep your Ally data private because it contains sensitive personal or professional information.  Enabling Face ID is a quick and easy way to protect your Ally vault data so that only you can access it. 
 
 ## To enable Face ID on your iPhone:
 

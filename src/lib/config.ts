@@ -19,8 +19,8 @@ export const siteConfig: SiteConfig = {
     npm: '',
 
     quickLinks: [
-        { title: 'Getting Started', href: '/docs/getting-started' },
-        { title: 'Features', href: '/docs/features' }
+        { title: 'Getting Started', href: '/getting-started' },
+        { title: 'Features', href: '/features' }
     ],
     logo: '/logo.svg',
     logoDark: '/logo-white.svg',
@@ -31,7 +31,7 @@ export const siteConfig: SiteConfig = {
 export let navItems: NavItem[] = [
     {
         title: 'Docs',
-        href: '/docs'
+        href: '/'
     },
 
 ];

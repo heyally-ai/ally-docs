@@ -43,5 +43,5 @@ If you skip granting permissions during setup, you'll need to enable them manual
 Pro tip: Using the macOS and iOS apps together is recommended, but they can be used separately.
 </Callout>
 
-- [Configure the macOS app](/docs/getting-started/configure-macos)
-- [Configure the iOS app](/docs/getting-started/configure-ios)
+- [Configure the macOS app](/getting-started/configure-macos)
+- [Configure the iOS app](/getting-started/configure-ios)

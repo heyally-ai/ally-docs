@@ -5,6 +5,7 @@
 	let { ref = $bindable(null), ...restProps }: ComponentProps<typeof Sidebar.Root> = $props();
 	import { docsNavigation } from '$lib/components/doc-navigation.svelte';
 	import { page } from '$app/state';
+	import { base } from '$app/paths';
 	import SocialMedia from './social-media.svelte';
 	const path = $derived(page.url.pathname);
 </script>
@@ -15,12 +16,12 @@
 			<Sidebar.MenuItem>
 				<Sidebar.MenuButton size="lg">
 					{#snippet child({ props })}
-						<a href="/docs" {...props}>
+						<a href={base || '/'} {...props}>
 							<div
 								class="flex aspect-square size-8 items-center justify-center rounded-lg overflow-hidden"
 							>
-								<img src={siteConfig.logo} alt={siteConfig.title} class="size-8 dark:hidden" />
-								<img src={siteConfig.logoDark} alt={siteConfig.title} class="size-8 hidden dark:block" />
+								<img src="{base}{siteConfig.logo}" alt={siteConfig.title} class="size-8 dark:hidden" />
+								<img src="{base}{siteConfig.logoDark}" alt={siteConfig.title} class="size-8 hidden dark:block" />
 							</div>
 							<div class="flex flex-col gap-0.5 leading-none">
 								<span class="font-semibold"> {siteConfig.title} </span>
@@ -37,9 +38,9 @@
 			<Sidebar.Menu>
 				{#each docsNavigation.docNav as groupItem (groupItem.title)}
 					<Sidebar.MenuItem>
-						<Sidebar.MenuButton class="font-medium" isActive={path === groupItem.href}>
+						<Sidebar.MenuButton class="font-medium" isActive={path === `${base}${groupItem.href}`}>
 							{#snippet child({ props })}
-								<a href={groupItem.href} {...props}>
+								<a href="{base}{groupItem.href}" {...props}>
 									{groupItem.title}
 								</a>
 							{/snippet}
@@ -48,9 +49,9 @@
 							<Sidebar.MenuSub>
 								{#each groupItem.items as item (item.title)}
 									<Sidebar.MenuSubItem>
-										<Sidebar.MenuSubButton isActive={path === item.href}>
+										<Sidebar.MenuSubButton isActive={path === `${base}${item.href}`}>
 											{#snippet child({ props })}
-												<a href={item.href} {...props}>{item.title}</a>
+												<a href="{base}{item.href}" {...props}>{item.title}</a>
 											{/snippet}
 										</Sidebar.MenuSubButton>
 									</Sidebar.MenuSubItem>

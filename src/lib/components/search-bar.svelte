@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { goto } from '$app/navigation';
+	import { base } from '$app/paths';
 	import { docsSearch } from './doc-search.svelte';
 	import * as Command from '$lib/components/ui/command';
 	import { Search as SearchIcon, BookOpen, FileText } from 'lucide-svelte';
@@ -20,7 +21,7 @@
 		searchQuery = '';
 		open = false;
 		docsSearch.clearSearch();
-		goto(`/docs/${slug}`);
+		goto(`${base}/${slug}`);
 	}
 
 	onMount(() => {

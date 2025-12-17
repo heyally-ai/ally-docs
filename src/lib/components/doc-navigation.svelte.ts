@@ -24,8 +24,8 @@ class DocsNavigation {
                 const doc = await (resolver as DocResolver)();
                 if (!doc?.metadata?.title) continue;
 
-                let href = `/docs${path.replace(/^\/src\/content/, '').replace(/\.md$/, '')}`;
-                href = href.replace(/\/index$/, '');
+                let href = path.replace(/^\/src\/content/, '').replace(/\.md$/, '');
+                href = href.replace(/\/index$/, '') || '/';
 
                 const { title, disabled, external, label } = doc.metadata;
                 const item: NavItem = {
@@ -65,11 +65,6 @@ class DocsNavigation {
 
             const pathParts = item.href.split('/').filter(Boolean);
 
-            // Skip the 'docs' part as it's common to all
-            if (pathParts[0] === 'docs') {
-                pathParts.shift();
-            }
-
             if (pathParts.length === 0) {
                 // This is the root level index
                 root.push(item);
@@ -78,7 +73,7 @@ class DocsNavigation {
                 const isIndex = pathParts.length === 1;
                 // Filter paths that start with this folder
                 const childPaths = allPaths.filter(path =>
-                    path?.startsWith(`/docs/${currentFolder}/`) || path === `/docs/${currentFolder}`
+                    path?.startsWith(`/${currentFolder}/`) || path === `/${currentFolder}`
                 );
 
                 // A folder is considered single if it has exactly one entry (itself)

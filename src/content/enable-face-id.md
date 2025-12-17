@@ -13,4 +13,4 @@ You may want to keep your Ally data private because it contains sensitive person
 
 3. Press "Require Face ID"
 
-Now, your Ally value is protected by Face ID and will not open without biometric confirmation of your identity.
+The next time you open the Ally app, your iPhone will require a Face ID scan before opening so your Ally data is protected.

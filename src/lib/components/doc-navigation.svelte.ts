@@ -85,10 +85,7 @@ class DocsNavigation {
                     // Check if we need to create a folder
                     if (!folderMap.has(currentFolder)) {
                         const folderItem: NavItem = {
-                            title: currentFolder
-                                .split('-')
-                                .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-                                .join(' '),
+                            title: currentFolder.replaceAll('-', ' '),
                             items: []
                         };
                         folderMap.set(currentFolder, folderItem);

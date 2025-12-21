@@ -1,6 +1,6 @@
 ---
-title: Ally AI
-description: A productivity tool for thriving in the AI Age
+title: About Ally AI
+description: A productivity tool for thriving in the AI age
 ---
 
 # What is Ally?
@@ -8,7 +8,7 @@ description: A productivity tool for thriving in the AI Age
 Ally helps you:
 
 - Capture the information that's important in your life
-- Organize it in a way that works for you
+- Organize everything in a way that works for you
 - Utilize that information when you need it
 - Manage your life more competently with less effort
 - Improve the quality of your work 
@@ -19,7 +19,9 @@ Ally helps you:
   - Voice notes: Quickly record, transcribe, and save thoughts, reminders, and ideas as they come to mind
   - Meeting transcription: Record, transcribe, and summarize your meetings, lectures, etc. so that you never miss a detail
   - Web clipper: Save web page content with Safari extension (Chrome coming soon!)
-  - Centralized inbox: Organizing is simple and easy. Just drag and drop each item where it belongs 
+  - Centralized inbox: Organizing is simple and easy. Just drag and drop each item where it belongs
+  - Global keyboard shortcuts and macOS Spotlight Quick Key support 
+  - iOS Action button support: Capture voice notes on the go with a single button press
   
 ### Fast, elegant markdown editing:
   - Snappy markdown editor for managing your data, creating documents, and more
@@ -47,14 +49,13 @@ Ally helps you:
 
 ## Quick Start
 
-- [Install Ally](/getting-started) - Download and set up on macOS and iOS
-- [Your First Recording] - Start capturing knowledge
-- [Explore Features](/features) - Discover what Ally can do and how it can help you
-- [Understand the life management philosophy] - Understand Ally's flexible approach to managing your personal and professional life.
+- [Install and set up Ally](/Getting-started/) - Download and set up on macOS and iOS
+- [Explore features](/features) - Discover what Ally can do and how it can help you
+- [Understand the philosophy driving Ally's approach to productivity and life management] - Coming soon. Understand Ally's flexible approach to managing your personal and professional life.
 
 ## What makes Ally different?
 
-**AI that makes sense, actually helps, and works well:** Ally doesn't utilize AI just to check a box, it's implemented for very specific use cases, a lot of it is completely invisible, and it stays out of your way when not needed. Each application of AI is meticulously designed and tested to ensure predictable, accurate results. 
+**AI that makes sense, actually helps, and works well:** Ally doesn't utilize AI just to check a box, it's an app built around AI at its foundation. But, rather than applying AI to everything, it's implemented for very specific use cases, a lot of it is completely invisible, and it stays out of your way when not needed. 
 
 **Ally remembers and adapts:** Ally converts your life's data into markdown documents which become vectorized embeddings which create a sophisticated, constantly evolving, knowledge graph that allows Ally to understand the relationships between information, tasks, people, so it can do a better job of keeping you organized, assisting with your obligations, creating deliverables, and more.
 

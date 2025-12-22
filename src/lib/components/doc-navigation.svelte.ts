@@ -93,8 +93,14 @@ class DocsNavigation {
                     }
 
                     const folder = folderMap.get(currentFolder);
-                    if (folder?.items) {
-                        folder.items.push(item);
+                    if (folder) {
+                        // If this is the folder's index page, use it for the folder link
+                        if (isIndex) {
+                            folder.href = item.href;
+                            folder.title = item.title;
+                        } else {
+                            folder.items?.push(item);
+                        }
                     }
                 }
             }

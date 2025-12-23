@@ -1,6 +1,6 @@
 ---
-title: Secure your iPhone app with Face ID
-description: Keep your Ally data private with Apple Face ID
+title: Enable iCloud sync 
+description: Keep your Ally data in sync between your macOS and iOS devices
 ---
 
 To keep voice notes and meeting recordings in sync between iOS and macOS, turn on iCloud Sync in the Ally app settings. Ally AI offers secure iCloud sync that encrypts your data in transit and decrypts your data locally. 

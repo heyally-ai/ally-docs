@@ -1,6 +1,6 @@
 ---
 title: Getting started with Ally AI
-description: Install and set up Ally for producitivity
+description: Install and set up Ally for productivity
 ---
 
 <script>
@@ -15,7 +15,7 @@ Ally requires macOS 14.6+ or iOS 17+ to run. Check your system version before in
 
 ### macOS
 
-1. Download the Ally macOS app from the [Mac App Store](https://apps.apple.com/us/app/ally-ai-for-life/id6752736179)
+1. Download the Ally macOS app from the [Mac App Store](macappstore://itunes.apple.com/app/id6752736179)
 2. Launch the Ally app from your Applications folder or by opening Spolight (`command + space`) and searching `Ally`
 
 ### iOS
@@ -43,5 +43,6 @@ If you skip granting permissions during setup, you'll need to enable them manual
 Pro tip: Using the macOS and iOS apps together is recommended, but they can be used separately.
 </Callout>
 
-- [Configure the macOS app](/getting-started/configure-macos)
-- [Configure the iOS app](/getting-started/configure-ios)
+- [Keep your notes in sync between iOS and macOS with secure sync](/getting-started/turn-on-icloud-sync)
+- [Quick save web content with the web clipper](/getting-started/set-up-web-clipper)
+- [Protect your data with Face ID](/getting-started/enable-face-id)

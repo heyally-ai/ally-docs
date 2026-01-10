@@ -39,10 +39,10 @@ If you skip granting permissions during setup, you'll need to enable them manual
 
 ## Next Steps
 
-<Callout type="tip">
-Pro tip: Using the macOS and iOS apps together is recommended, but they can be used separately.
-</Callout>
-
 - [Keep your notes in sync between iOS and macOS with secure sync](/getting-started/turn-on-icloud-sync)
 - [Quick save web content with the web clipper](/getting-started/set-up-web-clipper)
 - [Protect your data with Face ID](/getting-started/enable-face-id)
+
+<Callout type="tip">
+Pro tip: Using the macOS and iOS apps together is recommended, but they can be used separately.
+</Callout>

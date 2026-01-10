@@ -49,7 +49,7 @@ Ally helps you:
 
 ## Quick Start
 
-- [Install and set up Ally] - Download and set up on macOS and iOS
+- [Install and set up Ally](/getting-started) - Download and set up on macOS and iOS
 - [Explore features](/features) - Discover what Ally can do and how it can help you
 - [Understand the philosophy driving Ally's approach to productivity and life management] - Coming soon. Understand Ally's flexible approach to managing your personal and professional life.
 

@@ -10,8 +10,8 @@ description: Common issues and solutions
 **Symptoms:** Recording doesn't capture audio
 
 **Solutions:**
-1. Check microphone permissions in System Settings
-2. Restart Ally
+1. Check microphone permissions in System Settings. Ensure you've granted both Screen Capture and Microphone permissions. 
+2. You may need to restart the app after granting Screen Capture permissions to ensure they take effect. Restart Ally by quitting and reopening the app.
 3. Try a different microphone input
 4. Check if other apps can access microphone
 
@@ -27,7 +27,7 @@ description: Common issues and solutions
 
 ## Sync Issues
 
-### iCloud Sync Not Working
+### iCloud sync not working
 
 **Symptoms:** Changes not syncing between devices
 
@@ -48,6 +48,7 @@ description: Common issues and solutions
 2. Restart Ally
 3. Clear cache (Settings → Advanced)
 4. Check Activity Monitor for resource usage
+5. Ensure you aren't using an AI model that exceeds your device's capabilities. Large models will struggle on devices with less than 32GB of RAM. 
 
 ### Large Vault Size
 

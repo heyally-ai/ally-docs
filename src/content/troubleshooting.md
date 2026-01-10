@@ -1,11 +1,11 @@
 ---
-title: Troubleshooting
+title: Troubleshooting Ally
 description: Common issues and solutions
 ---
 
-## Audio Issues
+## Audio issues
 
-### Microphone Not Working
+### Microphone not working
 
 **Symptoms:** Recording doesn't capture audio
 
@@ -15,7 +15,7 @@ description: Common issues and solutions
 3. Try a different microphone input
 4. Check if other apps can access microphone
 
-### Poor Transcription Quality
+### Poor transcription quality
 
 **Symptoms:** Transcriptions are inaccurate
 
@@ -25,7 +25,7 @@ description: Common issues and solutions
 3. Check microphone quality and positioning
 4. Update to latest Ally version for model improvements
 
-## Sync Issues
+## Sync issues
 
 ### iCloud sync not working
 
@@ -39,7 +39,7 @@ description: Common issues and solutions
 
 ## Performance
 
-### App Running Slow
+### App running slow
 
 **Symptoms:** Ally is laggy or unresponsive
 
@@ -50,7 +50,7 @@ description: Common issues and solutions
 4. Check Activity Monitor for resource usage
 5. Ensure you aren't using an AI model that exceeds your device's capabilities. Large models will struggle on devices with less than 32GB of RAM. 
 
-### Large Vault Size
+### Large vault size
 
 **Symptoms:** Vault taking up too much storage
 
@@ -62,7 +62,7 @@ description: Common issues and solutions
 
 ## Installation
 
-### Can't Install on macOS
+### Can't install on macOS
 
 **Symptoms:** Installation fails or app won't open
 
@@ -72,7 +72,7 @@ description: Common issues and solutions
 3. Allow app in Security & Privacy settings
 4. Try downloading again
 
-## Getting Help
+## Getting help
 
 Still having issues?
 

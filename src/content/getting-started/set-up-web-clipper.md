@@ -13,7 +13,7 @@ The Ally Web Clipper extension for Safari iOS is included when you download the 
 
 On your phone or tablet:
 
-1. Open Settings > Safari > Extensions
+1. Open `Settings > Safari > Extensions`
 2. Find the Ally Web Clipper in the list of Extensions and enable it
 
 Now you'll be able to instantly save web pages to your Ally inbox from your iPhone or iPad.
@@ -34,7 +34,7 @@ With Safari open with the web page you want to save:
 On your laptop or desktop Apple device:
 
 1. Open Safari
-2. Go to Settings > Extensions
+2. Go to `Settings > Extensions`
 3. Select the Ally Web Clipper extension by clicking the box next to it
 
 

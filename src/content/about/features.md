@@ -1,6 +1,6 @@
 ---
 title: Features
-description: Discover what Ally can do for you
+description: Discover what Ally can do
 ---
 
 ## Voice notes, meeting transcription, lecture recording, etc.
@@ -13,7 +13,7 @@ Record any speech audio and get instant, searchable transcriptions.
 - **Speaker diarization** - Automatically identify different speakers
 - **Multi-language support** - Transcribe in multiple languages
 
-[Learn more about voice recording →]
+[Learn more about voice recording →](https://heyally.ai/features/quick-capture/transcriber)
 
 ## Knowledge graph memory
 
@@ -24,7 +24,7 @@ Build searchable connections between your ideas, docs, and data automatically.
 - **Visual graph view** - See how your knowledge connects
 - **Smart search** - Find information semantically
 
-[Learn more about the knowledge graph →]
+[Learn more about the knowledge graph →](https://heyally.ai/features/local-llm)
 
 ## Library & Organization
 
@@ -46,7 +46,7 @@ Local AI that respects your privacy.
 - **Smart suggestions** - Contextual recommendations
 - **Semantic search** - Find by meaning, not just keywords
 
-[Learn more about AI features →]
+[Learn more about AI features →](https://heyally.ai/features/local-llm)
 
 ## Sync & Backup
 
@@ -57,3 +57,6 @@ Your data, everywhere you need it.
 - **Export options** - Markdown, JSON, and more
 
 [Learn more about sync →]
+
+
+**Something missing?** [Let us know](https://heyally.ai/contact) what features you want or what you're trying to do. We have a 100% community-driven roadmap and frequently implement user-suggested features.

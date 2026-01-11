@@ -20,12 +20,12 @@
 					variant="link"
 					href="#{heading.id}"
 					style="margin-left: {(heading.level - 1) * 1}rem"
-					class="font-base text-sm text-gray-800 dark:text-neutral-300"
+					class="font-base overflow-hidden text-sm text-gray-800 dark:text-neutral-300"
 				>
 					{#if heading.level > 1}
 						<ChevronRight class="mt-[5px] size-3.5 shrink-0" />
 					{/if}
-					{heading.text}
+					<span class="truncate">{heading.text}</span>
 				</Button>
 			</li>
 		{/each}

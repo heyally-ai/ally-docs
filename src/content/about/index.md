@@ -3,9 +3,7 @@ title: About Ally AI
 description: A productivity tool for thriving in the AI age
 ---
 
-# What is Ally?
-
-Ally helps you:
+## Ally helps you:
 
 - Capture the information that's important in your life
 - Organize everything in a way that works for you
@@ -15,10 +13,9 @@ Ally helps you:
 
 ## Ally's core features:
 
-### Frictionless capture: 
-  - Voice notes: Quickly record, transcribe, and save thoughts, reminders, and ideas as they come to mind
-  - Meeting transcription: Record, transcribe, and summarize your meetings, lectures, etc. so that you never miss a detail
-  - Web clipper: Save web page content with Safari extension (Chrome coming soon!)
+### Frictionless "Quick Capture:" 
+  - [Voice notes & meeting transcription](https://heyally.ai/features/quick-capture/transcriber): Quickly record, transcribe, and save thoughts, meetings, lectures, reminders, and ideas as they come to mind
+  - [Web clipper](https://heyally.ai/features/quick-capture/web-clipper): Save web page content with Safari extension (Chrome coming soon!)
   - Centralized inbox: Organizing is simple and easy. Just drag and drop each item where it belongs
   - Global keyboard shortcuts and macOS Spotlight Quick Key support 
   - iOS Action button support: Capture voice notes on the go with a single button press
